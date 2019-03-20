@@ -1,0 +1,22 @@
+body{
+    background-color: grey
+}
+
+h1{
+    text-align: center;
+    color: white
+}
+.positive {
+    background-color:white;
+    border: 2px dashed red;
+    padding: 5px;
+    margin: 10px 10px;
+    text-align: center;
+}
+.negative {
+    background-color:white;
+    border: 2px solid green;
+    padding: 5px;
+    margin: 10px 10px;
+    text-align: center;
+}
