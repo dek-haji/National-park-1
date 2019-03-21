@@ -7,16 +7,41 @@ h1{
     color: white
 }
 .positive {
-    background-color:white;
+    align-self: auto;
+    background-color:lightgray;
     border: 2px dashed red;
     padding: 5px;
     margin: 10px 10px;
     text-align: center;
+    width: 210px;
+    
 }
 .negative {
-    background-color:white;
+    background-color:lightgray;
     border: 2px solid green;
     padding: 5px;
     margin: 10px 10px;
     text-align: center;
+    width: 210px;
+
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    animation-name: introduction;
+    animation-duration: 2s;
+    
+    
+}
+#park__form{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    align-items: center;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#311847), to(#3EB9E6));
+    background-image: -webkit-linear-gradient(top, #311847, #3EB9E6);
+    background-image: -moz-linear-gradient(top, #311847, #3EB9E6);
+    background-image: linear-gradient(to bottom, #311847, #3EB9E6);
 }
